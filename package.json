@@ -1,0 +1,20 @@
+{
+  "name": "@hype/html",
+  "description": "make html on the web",
+  "version": "0.0.0",
+  "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com/)",
+  "bugs": {
+    "url": "https://github.com/ungoldman/hype-html/issues"
+  },
+  "homepage": "https://github.com/ungoldman/hype-html#readme",
+  "keywords": [
+    "esm",
+    "html"
+  ],
+  "license": "ISC",
+  "main": "html.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungoldman/hype-html.git"
+  }
+}
