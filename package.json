@@ -1,7 +1,7 @@
 {
   "name": "@hype/html",
   "description": "make html on the web",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com/)",
   "bugs": {
     "url": "https://github.com/ungoldman/hype-html/issues"
