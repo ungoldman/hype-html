@@ -26,9 +26,9 @@ html`<div>Hello</div>`
 
 ## Licenses
 
-[ISC](LICENSE.md)
-[nanohtml][1]: MIT
-[hyperx][2]: BSD
+- [ISC](LICENSE.md)
+- [nanohtml][1]: MIT
+- [hyperx][2]: BSD
 
 [1]: https://github.com/choojs/nanohtml/
 [2]: https://github.com/choojs/hyperx/
