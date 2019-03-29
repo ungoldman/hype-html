@@ -10,7 +10,7 @@
     body {
       margin: 0;
       padding: 0;
-      font-size: 96px;
+      font-size: 16px;
     }
 
     body {
@@ -21,13 +21,21 @@
       flex-direction: column;
       position: relative;
     }
+
+    a { text-decoration: none }
+    a:hover { text-decoration: underline }
   </style>
 </head>
 <body>
   <div class="section"></div>
   <script type="module">
     import { html } from './html.js'
-    document.body.appendChild(html`<p>👋</p>`)
+    var hello = html`
+      <p>👋</p>
+      <p><a href="https://github.com/ungoldman/hype-html/">@hype/html</a></p>
+      <p>🎉</p>
+    `
+    document.body.appendChild(hello)
   </script>
 </body>
 </html>
