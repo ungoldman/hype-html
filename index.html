@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>@hype/html</title>
+  <link rel="stylesheet" href="https://unpkg.com/style.css">
   <style>
     html,
     body {
@@ -22,17 +23,25 @@
       position: relative;
     }
 
-    a { text-decoration: none }
-    a:hover { text-decoration: underline }
+    a {
+      text-decoration: none
+    }
+
+    a:hover {
+      text-decoration: underline
+    }
   </style>
 </head>
 <body>
   <script type="module">
-    import { html } from './html.js'
+    import { html } from 'https://unpkg.com/@hype/html@0.0.3/html.js'
 
     var hello = html`
       <p>👋</p>
-      <p><a href="https://github.com/ungoldman/hype-html/">@hype/html</a></p>
+      <p>serving <a href="https://github.com/ungoldman/hype-html/">@hype/html</a></p>
+      <p>directly from</p>
+      <p><a href="https://unpkg.com/@hype/html@0.0.3/html.js">https://unpkg.com/@hype/html@0.0.3/html.js</a></p>
+      <p><code>import { html } from 'https://unpkg.com/@hype/html@0.0.3/html.js'</code></p>
       <p>🎉</p>
     `
 
