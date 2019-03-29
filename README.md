@@ -1,6 +1,6 @@
 # `@hype/html`
 
-[nanohtml] (and [hyperx]) packaged for [esm]
+[nanohtml][1] (and [hyperx][2]) packaged for [esm][3]
 
 ## About
 
@@ -27,10 +27,9 @@ html`<div>Hello</div>`
 ## Licenses
 
 [ISC](LICENSE.md)
+[nanohtml][1]: MIT
+[hyperx][2]: BSD
 
-- [hyperx]: BSD
-- [nanohtml]: MIT
-
-[hyperx]: https://github.com/choojs/hyperx/
-[nanohtml]: https://github.com/choojs/nanohtml/
-[esm]: https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/
+[1]: https://github.com/choojs/nanohtml/
+[2]: https://github.com/choojs/hyperx/
+[3]: https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/
