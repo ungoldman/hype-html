@@ -8,11 +8,15 @@ Experimenting with repackaging node modules for use in the browser via JavaScrip
 
 This is meant to be used directly on the web only.
 
----
+## Usage
 
-⚠️ Disclaimer ⚠️
+```js
+import { html } from 'https://unpkg.com/@hype/html@0.0.3/html.js'
 
-![I have no idea what I'm doing](http://thumbpress.com/wp-content/uploads/2013/05/I-Have-No-Idea-What-Im-Doing-1.jpg)
+var hello = html`<p>👋</p>`
+
+document.body.appendChild(hello)
+```
 
 ## API
 
@@ -23,6 +27,10 @@ Tagged template literal helper to create html elements.
 ```js
 html`<div>Hello</div>`
 ```
+
+## ⚠️ Disclaimer ⚠️
+
+![I have no idea what I'm doing](http://thumbpress.com/wp-content/uploads/2013/05/I-Have-No-Idea-What-Im-Doing-1.jpg)
 
 ## Licenses
 
