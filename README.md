@@ -4,7 +4,7 @@
 
 ## About
 
-Experimenting with repackaging node modules for use in the browser via JavaScript Modules.
+Experimenting with repackaging node modules for use in the browser via ES Modules.
 
 This is meant to be used directly on the web only.
 
