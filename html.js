@@ -2,9 +2,9 @@
 // Copyright 2018 Choo Contributors
 // MIT License
 
-import { hyperx } from './hyperx.js'
-import { SVG_TAGS, BOOL_PROPS, DIRECT_PROPS } from './constants.js'
-import { appendChild } from './append-child.js'
+import { hyperx } from './lib/hyperx.js'
+import { SVG_TAGS, BOOL_PROPS, DIRECT_PROPS } from './lib/constants.js'
+import { appendChild } from './lib/append-child.js'
 
 var SVGNS = 'http://www.w3.org/2000/svg'
 var XLINKNS = 'http://www.w3.org/1999/xlink'
