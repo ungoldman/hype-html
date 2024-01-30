@@ -10,7 +10,7 @@ This is meant to be used directly on the web only.
 
 ## Usage
 
-```js
+```html
 <!doctype html>
 <html>
 <body>
