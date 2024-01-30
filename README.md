@@ -11,11 +11,20 @@ This is meant to be used directly on the web only.
 ## Usage
 
 ```js
-import { html } from 'https://unpkg.com/@hype/html@0.0.3/html.js'
+<!doctype html>
+<html>
+<body>
+  <script type="module">
+    import { html } from 'https://unpkg.com/@hype/html/html.js'
 
-var hello = html`<p>👋</p>`
+    var hello = html`
+      <p>👋🌎</p>
+    `
 
-document.body.appendChild(hello)
+    document.body.appendChild(hello)
+  </script>
+</body>
+</html>
 ```
 
 ## API
